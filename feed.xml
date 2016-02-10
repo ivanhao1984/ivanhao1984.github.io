@@ -4,8 +4,8 @@
         <description>GitBlog是一个简单易用的Markdown博客系统</description>
         <link>/</link>
         <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2016-02-10 23:02:28</pubDate>
-        <lastBuildDate>2016-02-10 23:02:28</lastBuildDate>
+        <pubDate>2016-02-10 23:02:55</pubDate>
+        <lastBuildDate>2016-02-10 23:02:55</lastBuildDate>
         <generator>Gitblog v1.0</generator>
                 <item>
             <title>我的第一篇MarkDown博客!</title>
