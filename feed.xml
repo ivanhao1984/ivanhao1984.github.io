@@ -4,9 +4,28 @@
         <description>GitBlog是一个简单易用的Markdown博客系统</description>
         <link>/</link>
         <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2016-02-10 23:02:55</pubDate>
-        <lastBuildDate>2016-02-10 23:02:55</lastBuildDate>
+        <pubDate>2016-02-11 13:02:10</pubDate>
+        <lastBuildDate>2016-02-11 13:02:10</lastBuildDate>
         <generator>Gitblog v1.0</generator>
+                <item>
+            <title>Git命令一览</title>
+            <description>
+            &lt;!--
+author:ivan 
+date: 2016-02-11
+title: Git命令一览 
+tags: Git
+category: GitBlog
+status: publish
+summary: Git的常用命令一览，简单实用
+--&gt;
+&lt;p&gt;&lt;strong&gt;Git命令：&lt;/strong&gt;
+&lt;img src=&quot;../git_help.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;            </description>
+            <pubDate>2016-02-11 13:35:33</pubDate>
+            <link>//blog/git_help.html</link>
+            <guid isPermaLink="true">//blog/git_help.html</guid>
+                                               <category>GitBlog</category>
+                                    </item>
                 <item>
             <title>我的第一篇MarkDown博客!</title>
             <description>
