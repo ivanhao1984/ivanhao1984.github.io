@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>欢迎使用GitBlog|Ivan&#039;s Blog</title>
-	<meta name="keywords" content="GitBlog,Ivan&#039;s Blog">
-	<meta name="description" content="GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。">
+	<title>利用ssh反向隧道访问内网-赚钱宝折腾|Ivan&#039;s Blog</title>
+	<meta name="keywords" content="ssh,赚钱宝,赚钱宝折腾,Ivan&#039;s Blog">
+	<meta name="description" content="赚钱宝折腾，利用ssh反向隧道从外网访问内网。从而实现远程调度。">
 	
 	<link rel="stylesheet" href="/theme/quest/assets/plugins/bootstrap/css/bootstrap.min.css?ver=2.2" type="text/css" media="all" />
 	<link rel="stylesheet" href="/theme/quest/assets/plugins/font-awesome/css/font-awesome.min.css?ver=2.2" type="text/css" media="all" />
@@ -37,99 +37,58 @@
 					<div id="main" class="site-main" role="main">
 						<article class="post hentry">
 	<header class="entry-header">
-	<h1 class="post-title"><a href="/blog/welcome.html" rel="bookmark">欢迎使用GitBlog</a></h1>
+	<h1 class="post-title"><a href="/blog/ssh-tunnel.html" rel="bookmark">利用ssh反向隧道访问内网-赚钱宝折腾</a></h1>
 	<div class="entry-meta">
-		<time class="post-date"><i class="fa fa-clock-o"></i>2015-07-31</time>
+		<time class="post-date"><i class="fa fa-clock-o"></i>2016-02-11</time>
 				<span class="seperator">/</span>
-	    <span><i class="fa fa-user"></i> jockchou</span>
+	    <span><i class="fa fa-user"></i> ivan</span>
 	    	</div><!-- .entry-meta -->
 </header><!-- .entry-header -->	<div class="entry-content">
 		<!--
-author: jockchou
-head: http://pingodata.qiniudn.com/jockchou-avatar.jpg
-date: 2015-07-31
-title: 欢迎使用GitBlog
-tags: GitBlog
-images: http://pingodata.qiniudn.com/cube2.jpg
-category: GitBlog
+author:ivan 
+date: 2016-02-11
+title: 利用ssh反向隧道访问内网-赚钱宝折腾 
+tags: ssh,赚钱宝 
+category: 赚钱宝折腾 
 status: publish
-summary: GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+summary: 赚钱宝折腾，利用ssh反向隧道从外网访问内网。从而实现远程调度。
 -->
-<h2 id="一. 简介">一. 简介</h2>
-<p>GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。</p>
-<h2 id="二. 功能特点">二. 功能特点</h2>
-<ol>
-<li>使用Markdown  </li>
-<li>评论框  </li>
-<li>代码高亮  </li>
-<li>PV统计  </li>
-<li>Latex数学公式  </li>
-<li>自制主题  </li>
-<li>响应式  </li>
-<li>全站静态导出  </li>
-<li>良好的SEO  </li>
-</ol>
-<h2 id="三. GitBlog优势">三. GitBlog优势</h2>
-<ol>
-<li>无需数据库，系统更轻量，移植更方便  </li>
-<li>使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  </li>
-<li>可全站静态导出  </li>
-<li>配置灵活，可自由开关某些功能  </li>
-<li>多主题支持，可自制主题  </li>
-<li>博客，分类，标签，归档  </li>
-</ol>
-<h2 id="四. 环境要求">四. 环境要求</h2>
-<p>PHP 5.2.4+</p>
-<h2 id="五. 安装步骤">五. 安装步骤</h2>
-<ol>
-<li>下载GitBlog源代码  </li>
-<li>解压上传到你的PHP网站根目录  </li>
-<li>打开浏览器，访问网站首页  </li>
-<li>上传Markdown文件到<code>posts</code>文件夹  </li>
-</ol>
-<h2 id="六. 详细说明">六. 详细说明</h2>
-<p><a href="http://gitblogdoc.sinaapp.com/blog/gitblog/install.html">1. 安装</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/struct.html">2. 目录结构</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/config.html">3. 配置说明</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/edit.html">4. 编写博客</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/other-func.html">5. 评论，订阅，统计等</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/cache.html">6. 缓存机制</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/export.html">7. 全站静态导出</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/theme.html">8. 主题制作</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/nginx.html">9. 在Nginx上运行GitBlog</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/apache.html">10. 在Apache上运行GitBlog</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/sae.html">11. 在SAE上运行GitBlog</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/github-pages.html">12. 使用GitBlog和Github Pages搭建博客</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/update.html">13. Gitblog升级</a><br />
-<a href="http://gitblogdoc.sinaapp.com/blog/gitblog/wordpress.html">14. 从wordpress导入</a></p>
-<h2 id="七. 问题及bug反馈">七. 问题及bug反馈</h2>
-<p>如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至<code>164068300[AT]qq.com</code>与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群<code>84692078</code>。</p>
-<h2 id="八. 使用者列表">八. 使用者列表</h2>
+<hr />
+<p><strong>迅雷赚钱宝</strong>root后真是一切都自由了！</p>
+<p>关于root，原来是序列号的后8位，后来迅雷官方修改规则了，特别是pro，完全进不去。没办法，只能在某宝上找了一个算号的算出来密码进去了。</p>
+<p>ROOT后首先是要创建一个自己的root权限用户，并配置entWare环境。这部分会在之后的文章中整理出来，今天先说一下ssh反向隧道。</p>
+<h2 id="一、为什么要反向隧道呢?">一、为什么要反向隧道呢?</h2>
+<p>1.上网环境做不了端口映射。</p>
+<p>2.自己搞不定root后的配置，需要别人远程帮忙设置的。</p>
+<h2 id="二、如何建立反向隧道？">二、如何建立反向隧道？</h2>
+<pre><code>ssh -R 19999:localhost:22 远程用户名@远程ip -p 远程端口</code></pre>
+<p>这样就实现了把本地的22端口映射到远程的19999端口上了.
+这时候在远程ip的主机里，连接19999就可以访问内网里的赚钱宝了：</p>
+<pre><code>ssh localhost -p 19999</code></pre>
 <ul>
-<li><a href="http://blog.hiweeds.net">Weeds</a></li>
-<li><a href="http://xiaochengzi.sinaapp.com">橙子</a></li>
-<li><a href="http://jockchou.gitblog.cn">jockchou</a></li>
-<li><a href="http://gitblogdoc.sinaapp.com">GitBlog Doc</a></li>
-<li><a href="http://zxy.link">zxy</a>  </li>
+<li>如果安装了autossh的话，可以这样：</li>
 </ul>
-<h2 id="九. 感谢">九. 感谢</h2>
-<p>GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。</p>
-<p>QQ群：<code>84692078</code><br />
-作者邮箱：<code>164068300[AT]qq.com</code>    </p>
+<pre><code>autossh  -M 5678 -R 19999:localhost:22 远程用户名@远程ip -p 远程端口</code></pre>
+<p>其中，-M后的端口号可以随便，这是为在本地建立一个监听端口，只要别端口冲突就行。</p>
+<p>可以用screen来让它保持在后台运行。</p>
+<blockquote>
+<p><em>关于autossh和screen的安装，参见entWare环境配置，里面会提到如何安装软件</em></p>
+</blockquote>
 	</div><!-- .entry-content -->	<footer class="entry-footer">
 		<ul class="post-categories">
           
-          <li><a href="/category/107260689.html" rel="category">GitBlog</a></li>
+          <li><a href="/category/534749761.html" rel="category">赚钱宝折腾</a></li>
         	</ul>
 		
 		<ul class="post-tags">
-                   <li><a href="/tags/107260689.html" rel="tag">GitBlog</a></li>
+                   <li><a href="/tags/1334748759.html" rel="tag">ssh</a></li>
+                   <li><a href="/tags/2057163754.html" rel="tag">赚钱宝</a></li>
         	</ul>
 		
 	</footer><!-- .entry-footer --></article><!-- #post-## -->            			<div id="comments" class="clearfix">
 	<div id="respond" class="comment-respond">
 		<!-- 多说评论框 start -->
-		<div class="ds-thread" data-thread-key="1e26133c54300baf2307cb6aa6fcd861" data-title="欢迎使用GitBlog" data-url="//blog/welcome.html"></div>
+		<div class="ds-thread" data-thread-key="bb3dfb427f9a7344db160010f91d6da5" data-title="利用ssh反向隧道访问内网-赚钱宝折腾" data-url="//blog/ssh-tunnel.html"></div>
 		<!-- 多说评论框 end -->
 		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 		<script type="text/javascript">
