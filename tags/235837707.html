@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>利用ssh反向隧道访问内网-赚钱宝折腾|Ivan&#039;s Blog</title>
-	<meta name="keywords" content="ssh,赚钱宝,赚钱宝折腾,Ivan&#039;s Blog">
-	<meta name="description" content="赚钱宝折腾，利用ssh反向隧道从外网访问内网。从而实现远程调度。">
+	<title>Ivan&#039;s Blog</title>
+	<meta name="keywords" content="entware,GitBlog,GitBlog,博客,Markdown博客,jockchou,Ivan&#039;s Blog">
+	<meta name="description" content="GitBlog是一个简单易用的Markdown博客系统">
 	
 	<link rel="stylesheet" href="/theme/quest/assets/plugins/bootstrap/css/bootstrap.min.css?ver=2.2" type="text/css" media="all" />
 	<link rel="stylesheet" href="/theme/quest/assets/plugins/font-awesome/css/font-awesome.min.css?ver=2.2" type="text/css" media="all" />
@@ -30,50 +30,36 @@
 	</div>
 </div>
 </header>		    <div id="content">
-	<div class="quest-row site-content">
+					    	    	
+    	    		<div class="quest-row" id="title-container">
+	<div class="container title-container">
+		<div class="row">
+			<div class="col-md-6">
+								<h3>GitBlog</h3>
+							</div>
+			<div class="col-md-6">
+				<ul class="breadcrumbs">
+					<li><a href="/">Home</a></li>
+										<li>GitBlog</li>
+									</ul>
+				</div>
+		</div>
+	</div>
+</div>    		<div class="quest-row site-content">
 		<div class="container">
 			<div class="row">
-				<div id="primary" class="content-area single col-md-9">
+				<div id="primary" class="content-area col-md-9">
 					<div id="main" class="site-main" role="main">
-						<article class="post hentry">
+																										        	<article class="post hentry">
 	<header class="entry-header">
-	<h1 class="post-title"><a href="/blog/ssh-tunnel.html" rel="bookmark">利用ssh反向隧道访问内网-赚钱宝折腾</a></h1>
+	<h1 class="post-title"><a href="/blog/entware-smb.html" rel="bookmark">赚钱宝root后第一件事，entware,samba-赚钱宝折腾</a></h1>
 	<div class="entry-meta">
-		<time class="post-date"><i class="fa fa-clock-o"></i>2016-02-11</time>
+		<time class="post-date"><i class="fa fa-clock-o"></i>2016-02-12</time>
 				<span class="seperator">/</span>
 	    <span><i class="fa fa-user"></i> ivan</span>
 	    	</div><!-- .entry-meta -->
 </header><!-- .entry-header -->	<div class="entry-content">
-		<!--
-author:ivan 
-date: 2016-02-11
-title: 利用ssh反向隧道访问内网-赚钱宝折腾 
-tags: ssh,赚钱宝 
-category: 赚钱宝折腾 
-status: publish
-summary: 赚钱宝折腾，利用ssh反向隧道从外网访问内网。从而实现远程调度。
--->
-<hr />
-<p><strong>迅雷赚钱宝</strong>root后真是一切都自由了！</p>
-<p>关于root，原来是序列号的后8位，后来迅雷官方修改规则了，特别是pro，完全进不去。没办法，只能在某宝上找了一个算号的算出来密码进去了。</p>
-<p>ROOT后首先是要创建一个自己的root权限用户，并配置entWare环境。这部分会在之后的文章中整理出来，今天先说一下ssh反向隧道。</p>
-<h2 id="一、为什么要反向隧道呢?">一、为什么要反向隧道呢?</h2>
-<p>1.上网环境做不了端口映射。</p>
-<p>2.自己搞不定root后的配置，需要别人远程帮忙设置的。</p>
-<h2 id="二、如何建立反向隧道？">二、如何建立反向隧道？</h2>
-<pre><code>ssh -R 19999:localhost:22 远程用户名@远程ip -p 远程端口</code></pre>
-<p>这样就实现了把本地的22端口映射到远程的19999端口上了.
-这时候在远程ip的主机里，连接19999就可以访问内网里的赚钱宝了：</p>
-<pre><code>ssh localhost -p 19999</code></pre>
-<ul>
-<li>如果安装了autossh的话，可以这样：</li>
-</ul>
-<pre><code>autossh  -M 5678 -R 19999:localhost:22 远程用户名@远程ip -p 远程端口</code></pre>
-<p>其中，-M后的端口号可以随便，这是为在本地建立一个监听端口，只要别端口冲突就行。</p>
-<p>可以用screen来让它保持在后台运行。</p>
-<blockquote>
-<p><em>关于autossh和screen的安装，参见entWare环境配置，里面会提到如何安装软件</em></p>
-</blockquote>
+		<p>赚钱宝root后，自由了，然后呢？</p>
 	</div><!-- .entry-content -->	<footer class="entry-footer">
 		<ul class="post-categories">
           
@@ -81,34 +67,17 @@ summary: 赚钱宝折腾，利用ssh反向隧道从外网访问内网。从而�
         	</ul>
 		
 		<ul class="post-tags">
-                   <li><a href="/tags/1334748759.html" rel="tag">ssh</a></li>
+                   <li><a href="/tags/2146007892.html" rel="tag">samba</a></li>
+                   <li><a href="/tags/235837707.html" rel="tag">entware</a></li>
                    <li><a href="/tags/2057163754.html" rel="tag">赚钱宝</a></li>
         	</ul>
 		
-	</footer><!-- .entry-footer --></article><!-- #post-## -->            			<div id="comments" class="clearfix">
-	<div id="respond" class="comment-respond">
-		<!-- 多说评论框 start -->
-		<div class="ds-thread" data-thread-key="bb3dfb427f9a7344db160010f91d6da5" data-title="利用ssh反向隧道访问内网-赚钱宝折腾" data-url="//blog/ssh-tunnel.html"></div>
-		<!-- 多说评论框 end -->
-		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-		<script type="text/javascript">
-		var duoshuoQuery = {short_name:"ivanhao1984"};
-		(function() {
-			var ds = document.createElement('script');
-			ds.type = 'text/javascript';ds.async = true;
-			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-			ds.charset = 'UTF-8';
-			(document.getElementsByTagName('head')[0] 
-			 || document.getElementsByTagName('body')[0]).appendChild(ds);
-		})();
-		</script>
-        <!-- 多说公共JS代码 end -->
-	</div><!-- #respond -->
-</div>
-					</div>
+		<div class="read-more">
+		<a href="/blog/entware-smb.html">阅读全文<i class="fa fa-angle-double-right "></i></a>
+	</div>
+	</footer><!-- .entry-footer --></article><!-- #post-## -->					        						        																		</div>
 					<!-- #main -->
 				</div>
-				<!-- #primary -->
 				<div id="secondary" class="widget-area main-sidebar col-md-3" role="complementary">
 	<aside class="widget widget_text sidebar-widget clearfix">
 	<h3 class="widget-title">介绍</h3>
@@ -170,7 +139,7 @@ summary: 赚钱宝折腾，利用ssh反向隧道从外网访问内网。从而�
 		<!-- .container -->
 	</div>
 	<!-- .quest-row -->
-</div>		    <footer id="colophon" class="copyright quest-row" role="contentinfo">
+</div><!-- #content -->		    <footer id="colophon" class="copyright quest-row" role="contentinfo">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 copyright-text">
